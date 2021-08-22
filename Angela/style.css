@@ -1,10 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: #EAF6F6;
 }
 
-h1,h2,h3{
-    color: #7FC8A9;
-}
 
 hr{
     width: 3%;
@@ -13,4 +12,189 @@ hr{
     border-width: 5px;
     border-color: grey;
     background-color: #EAF6F6;
+    margin: 100px auto;
+}
+
+.top-container{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #EAF6F6;
+}
+
+#name{
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+    color: #7FC8A9;
+}
+
+#profession{
+    font-family: 'Crimson Text', serif;
+    font-size: 25px;
+}
+
+.top-container img{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.middle-container{
+    margin: 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.middle-container p{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+.middle-container h1{
+    color: #7FC8A9;
+}
+
+.middle-container img{
+    display: block;
+    margin: 0 auto;
+}
+
+.heading{
+    line-height: 2;
+    color: #7FC8A9;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.skill1{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.skill1 img{
+    height: 150px;
+    float: left;
+    margin-right: 80px;
+}
+
+.skill1 h1{
+    color: #7FC8A9;
+}
+
+.skill1 p{
+    width: 90%;
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+
+.skill2{
+    width: 50%;
+    margin: 100px auto;
+
+}
+
+
+.skill2 img{
+    height: 150px;
+    float: right;
+    margin-left: 40px;
+}
+
+.skill2 p{
+    width: 90%;
+    text-align: right;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+.skill2 h1{
+    color: #7FC8A9;
+    text-align: right;
+}
+
+.skill3{
+    width: 50%;
+    margin: 100px auto;
+
+}
+
+
+.skill3 img{
+    height: 150px;
+    float: left;
+    margin-right: 40px;
+}
+
+.skill3 p{
+    width: 90%;
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+}
+
+.skill3 h1{
+    color: #7FC8A9;
+    text-align: left;
+}
+
+.contact-me p{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+
+.buttonClass{
+    text-align: center;
+    background-color: powderblue;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 40px auto;
+}
+
+.buttonClass:hover{
+    background-color: royalblue;
+}
+                
+.buttonDiv{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.socialDiv{
+    width: 75%;
+    margin: 10px auto;
+}
+
+.socialDiv h1{
+    text-align: center;
+    color: #7FC8A9;
+}
+
+.socialDiv ul{
+    text-align: center;
+}
+
+.socialDiv li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    background-color: #63b1b1;
+    padding: 20px;
+    color: white;
 }
