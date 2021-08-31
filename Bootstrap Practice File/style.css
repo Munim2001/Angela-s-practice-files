@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section{
+    padding: 0.5% 5%;
+    color: white;
+    background-color: #0C0A0A;
+}
+
+#hero-section a,li,.navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+#hero-section h1{
+    margin-top: 20%;
+}
+
+#hero-section img{
+    width: 50%;
+    margin-left: 150px;
+}
+
+#hero-section button{
+   color: white;
+}
+
+#feature-section{
+    padding: 5% 10%;
+}
+
+#feature-section .icon{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#feature-section i{
+    color: #5b96ee;
+}
+
+#feature-section i:hover{
+    color: #005be4;
+}
+
+
+#feature-section p{
+    color: gray;
+}
+
+#feature-section h1,p{
+    text-align: center;
+    
+}
