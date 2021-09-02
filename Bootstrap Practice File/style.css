@@ -55,3 +55,52 @@ body{
     text-align: center;
     
 }
+
+/* Carousel section design starts here */
+
+.carousel-item{
+    padding: 5% 10%;
+    text-align: center;
+    line-height: 2;
+    background-color: #5b96ee;
+    color: white;
+    /* margin-bottom: 50px; */
+}
+
+.carousel-item img{
+    /* height: 10%; */
+    width: 20%;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.carousel-item h1{
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Staatliches', cursive;
+}
+
+.carousel-item p{
+    font-family: 'Lobster Two', cursive;
+}
+
+/* Carousel section design ends here */
+
+/* Company logo section starts here */
+
+#logo-section{
+    background-color: #5b96ee;
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+#logo-section h1{
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+#logo-section img{
+    width: 5%;
+    margin: 50px 25px;
+    
+}
