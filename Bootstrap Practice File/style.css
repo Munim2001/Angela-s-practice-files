@@ -104,3 +104,33 @@ body{
     margin: 50px 25px;
     
 }
+
+/* Company logo section design ends here */
+
+/* Social connection section starts here */
+
+#social-icons{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+#social-icons h1{
+    font-family: 'Staatliches', cursive;
+}
+
+#social-icons i{
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Social connection section ends here */
+
+/* Footer section starts here */
+
+#footer-section{
+    text-align: center;
+    color: white;
+    background-color: #5b96ee;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+}
